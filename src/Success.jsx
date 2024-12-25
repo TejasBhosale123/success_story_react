@@ -28,7 +28,7 @@ const Success = () => {
         e.preventDefault();
 
         let data = {name,company,pkg};
-        let url = "https://success-story-express.onrender.com/save";
+        let url = "https://success-story-express-athu.onrender.com/save";
 
         axios.post(url,data)
         .then(res =>{
